@@ -1,0 +1,21 @@
+:root {
+  --ifm-color-primary: #ffffff;
+  --ifm-font-family-base: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+html[data-theme='dark'] {
+  --ifm-background-color: #0b0b0f;
+  --ifm-background-surface-color: rgba(255,255,255,.04);
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.menu__link {
+  border-radius: 10px;
+}
+
+.menu__link--active {
+  background: rgba(255,255,255,.08);
+}
