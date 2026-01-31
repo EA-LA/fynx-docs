@@ -5,7 +5,7 @@ const config = {
   tagline: "FYNX Finance World Documentation",
   favicon: "img/favicon.ico",
 
-  url: "https://ea-la.github.io",
+  url: "https://elhamamini.cc",
   baseUrl: "/fynx-docs/",
 
   organizationName: "EA-LA",
@@ -16,24 +16,24 @@ const config = {
 
   i18n: {
     defaultLocale: "en",
-    locales: ["en"]
+    locales: ["en"],
   },
 
   presets: [
     [
       "classic",
-      ({
+      {
         docs: {
-          path: "../docs",          // <- uses your existing /docs folder
-          routeBasePath: "/",       // docs are the homepage
-          sidebarPath: require.resolve("./sidebars.js")
+          path: "../docs",
+          routeBasePath: "/",
+          sidebarPath: require.resolve("./sidebars.js"),
         },
         blog: false,
         theme: {
-          customCss: require.resolve("./src/css/custom.css")
-        }
-      })
-    ]
+          customCss: require.resolve("./src/css/custom.css"),
+        },
+      },
+    ],
   ],
 
   themeConfig: {
@@ -43,16 +43,16 @@ const config = {
         {
           href: "https://github.com/EA-LA/fynx-docs",
           label: "GitHub",
-          position: "right"
-        }
-      ]
+          position: "right",
+        },
+      ],
     },
     colorMode: {
       defaultMode: "dark",
       disableSwitch: false,
-      respectPrefersColorScheme: true
-    }
-  }
+      respectPrefersColorScheme: true,
+    },
+  },
 };
 
 module.exports = config;
