@@ -5,7 +5,7 @@ const config = {
   tagline: "FYNX Finance World Documentation",
   favicon: "img/favicon.ico",
 
-  url: "https://elhamamini.cc",
+  url: "https://ea-la.github.io",
   baseUrl: "/fynx-docs/",
 
   organizationName: "EA-LA",
@@ -29,6 +29,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
         },
         blog: false,
+        sitemap: { changefreq: undefined, priority: undefined, ignorePatterns: ["**/tags/**"] },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -37,6 +38,7 @@ const config = {
   ],
 
   themeConfig: {
+    metadata: [{name:"description",content:"FYNX documentation: app features, trading tools, developer resources and product direction."}],
     navbar: {
       title: "FYNX Docs",
       items: [

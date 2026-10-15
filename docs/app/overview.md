@@ -1,3 +1,9 @@
+---
+title: "FYNX App Overview — Trading Tools & Daily Workflow"
+description: "Understand the core FYNX app modules: trading journal, calculators, market news, calendar and account settings."
+slug: /app/overview
+---
+
 # App Overview
 
 FYNX Finance World is a trading + investing operating system.
