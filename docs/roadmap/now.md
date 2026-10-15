@@ -1,3 +1,9 @@
+---
+title: "FYNX Development Roadmap — Current Focus"
+description: "Explore the documented development focus for FYNX and follow the public strategic roadmap."
+slug: /roadmap/now
+---
+
 # Roadmap — Now
 
 ## Current focus
